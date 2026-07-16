@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        HandGame.Start();
         Console.WriteLine("Loops");
         //Loops - Repeating a block of code multiple times
         // For Loop - Repeats a block of code a specific number of times
@@ -47,9 +48,11 @@ class Program
             Console.WriteLine();
         }
 
-        // Do While Loop - Repeats a block of code at least once and then continues while a condition is true
+        //Extra Challenge - Create a guessing game that uses a while loop to keep asking the user to guess a number until they get it right
+        //GuessingGame.Start();
 
-        GuessingGame.Start();
+        //
+        // Do While Loop - Repeats a block of code at least once and then continues while a condition is true
 
     }
 }
