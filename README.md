@@ -1,32 +1,50 @@
-# C# Playground
+# C# Learning Playground
 
-This repository is a hands-on C# learning workspace covering the fundamentals of the language through a series of small projects and exercises.
+This repository is a hands-on C# learning workspace designed to practice core programming concepts through small, focused projects and exercises.
 
-## Contents
+## Overview
 
-The workspace includes multiple practice folders such as:
+The workspace is organized as a progressive series of beginner-friendly C# topics. Each folder contains a small project that demonstrates and reinforces a specific concept.
 
-- `01-Basics` — basic syntax and first C# programs
-- `02-Terms` — terminology and core concepts
+## Project Structure
+
+- `01-Basics` — basic syntax, structure, and your first C# programs
+- `02-Terms` — terminology and essential programming concepts
 - `03-Math` — numeric operations and calculations
-- `04-StringMethods` — working with strings
-- `05-ConditonalFlow` — conditionals and branching
-- `06-Operators` — arithmetic and logical operators
-- `07-Loops` — loops, games, and iteration patterns
-- `08-Arrays` — array handling and examples
+- `04-StringMethods` — string manipulation and common methods
+- `05-ConditonalFlow` — conditionals and decision-making
+- `06-Operators` — arithmetic, comparison, and logical operators
+- `07-Loops` — iteration, repetition, and simple game examples
+- `08-Arrays` — array declaration, access, and manipulation
+- `09-Functions` — reusable methods and parameter passing
+- `10-ExceptionHandling` — error handling and defensive programming
 
-## Purpose
+## Learning Goals
 
-Each folder is meant to help practice a specific topic in C# and build confidence through small examples, problem-solving, and coding exercises.
+This repository helps build confidence in:
 
-## Running a Project
+- C# syntax and structure
+- Variables, data types, and operators
+- Control flow and loops
+- Arrays and collections basics
+- Functions and reusable logic
+- Exception handling and debugging mindset
 
-Open a folder such as `01-Basics` or `07-Loops` in the terminal and run:
+## Run a Project
+
+From the workspace root, move into any lesson folder and run:
 
 ```bash
 dotnet run
 ```
 
+Example:
+
+```bash
+cd 01-Basics
+dotnet run
+```
+
 ## Notes
 
-This repository is intended as a learning playground for experimenting with C# syntax, control flow, collections, and beginner-level programming concepts.
+This repository is intended as a personal practice space for learning C# fundamentals through code examples, mini exercises, and experimentation. It is best used incrementally, starting from the earlier folders and moving forward as each topic is understood.
