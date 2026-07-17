@@ -23,6 +23,11 @@ class Program
         Console.WriteLine(firstName);
         Console.WriteLine(lastName);
 
+        //String interpolation - allow you to insert variables into a string without using concatenation
+
+        String message = $"Hello {firstName}{lastName}, your phone number is {number}";
+        Console.WriteLine(message);
+
         Console.ReadKey();
     }
 }
