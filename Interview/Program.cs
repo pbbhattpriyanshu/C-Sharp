@@ -119,6 +119,12 @@
             acc1.balance = 13234;
             acc1.CheckBal();
 
+            Developer dev = new Developer("Priyanshu");
+            dev.name = "Priyanshu";
+            dev.Work();
+            dev.Code();
+            dev.Location();
+
         }
     }
 }
