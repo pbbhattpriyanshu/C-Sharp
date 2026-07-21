@@ -103,6 +103,16 @@
             Console.WriteLine(largest);
             Calc(6);
             CheckN(9);
+
+            //Class and Object
+            Student student1 = new Student("Puish", 18, "Science", "Cricket", 2026);
+            student1.hobby = "Football";
+            Student student2 = new Student("Aman", 17, "Commerce", "football", 2026);
+
+
+            student1.DisplayInfo();
+            student2.DisplayInfo();
+
         }
     }
 }
