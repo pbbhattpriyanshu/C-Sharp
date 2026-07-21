@@ -18,7 +18,7 @@ public class Employee
 		Console.WriteLine($"{name} Employee is working");
 	}
 
-	public virtial void Location()
+	public virtual void Location()
 	{
 		Console.WriteLine("Employee location is Lucknow");
 	}

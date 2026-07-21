@@ -125,6 +125,16 @@
             dev.Code();
             dev.Location();
 
+            Calculator cal = new Calculator();
+            Console.WriteLine(cal.Add(10, 20));
+            Console.WriteLine(cal.Add(10, 20, 30));
+            Console.WriteLine(cal.Add(10.5, 20.5));
+
+            Dog dog = new Dog();
+            Cat cat = new Cat();
+
+            dog.Sound();
+            cat.Sound();
         }
     }
 }
