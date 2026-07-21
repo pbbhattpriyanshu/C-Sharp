@@ -115,6 +115,10 @@
             Car car1 = new Car("Toyota", "Fortuner", 45000000);
             car1.DisplayInfo();
 
+            Bank acc1 = new Bank();
+            acc1.balance = 13234;
+            acc1.CheckBal();
+
         }
     }
 }
