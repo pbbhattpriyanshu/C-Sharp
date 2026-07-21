@@ -109,9 +109,11 @@
             student1.hobby = "Football";
             Student student2 = new Student("Aman", 17, "Commerce", "football", 2026);
 
-
             student1.DisplayInfo();
             student2.DisplayInfo();
+
+            Car car1 = new Car("Toyota", "Fortuner", 45000000);
+            car1.DisplayInfo();
 
         }
     }
